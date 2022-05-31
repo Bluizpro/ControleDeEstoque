@@ -1,0 +1,11 @@
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\BBL.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\BBL.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\DAL.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\Modelo.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\DAL.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\bin\Debug\Modelo.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\obj\Debug\BBL.csproj.AssemblyReference.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\obj\Debug\BBL.csproj.CoreCompileInputs.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\obj\Debug\BBL.csproj.CopyComplete
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\obj\Debug\BBL.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\BBL\obj\Debug\BBL.pdb

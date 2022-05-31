@@ -1,0 +1,9 @@
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\bin\Debug\DAL.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\bin\Debug\DAL.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\bin\Debug\Modelo.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\bin\Debug\Modelo.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\obj\Debug\DAL.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\DAL\obj\Debug\DAL.pdb

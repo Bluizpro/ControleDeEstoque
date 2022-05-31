@@ -1,0 +1,6 @@
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\bin\Debug\Modelo.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\bin\Debug\Modelo.pdb
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\obj\Debug\Modelo.dll
+C:\Users\BLUIZ\source\repos\ControleDeEstoque\Modelo\obj\Debug\Modelo.pdb
