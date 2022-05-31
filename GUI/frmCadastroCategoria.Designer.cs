@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmModeloDeCadastro
+    partial class frmCadastroCategoria
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnDados = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btCancelar = new System.Windows.Forms.Button();
             this.btSalvar = new System.Windows.Forms.Button();
@@ -36,16 +35,9 @@
             this.btAlterar = new System.Windows.Forms.Button();
             this.btLocalizar = new System.Windows.Forms.Button();
             this.btInserir = new System.Windows.Forms.Button();
+            this.pnDados = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pnDados
-            // 
-            this.pnDados.Location = new System.Drawing.Point(12, 12);
-            this.pnDados.Name = "pnDados";
-            this.pnDados.Size = new System.Drawing.Size(760, 397);
-            this.pnDados.TabIndex = 0;
-            this.pnDados.Paint += new System.Windows.Forms.PaintEventHandler(this.pnDados_Paint);
             // 
             // panel2
             // 
@@ -55,25 +47,23 @@
             this.panel2.Controls.Add(this.btAlterar);
             this.panel2.Controls.Add(this.btLocalizar);
             this.panel2.Controls.Add(this.btInserir);
-            this.panel2.Location = new System.Drawing.Point(12, 449);
+            this.panel2.Location = new System.Drawing.Point(20, 432);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(760, 100);
-            this.panel2.TabIndex = 1;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panel2.TabIndex = 3;
             // 
             // btCancelar
             // 
             this.btCancelar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btCancelar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btCancelar.Image = global::GUI.Properties.Resources.Cancelar;
-            this.btCancelar.Location = new System.Drawing.Point(665, 12);
+            this.btCancelar.Location = new System.Drawing.Point(655, 12);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(80, 80);
+            this.btCancelar.Size = new System.Drawing.Size(86, 80);
             this.btCancelar.TabIndex = 5;
             this.btCancelar.Text = "Cancelar";
             this.btCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btCancelar.UseVisualStyleBackColor = true;
-            this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btSalvar
             // 
@@ -87,7 +77,6 @@
             this.btSalvar.Text = "Salvar";
             this.btSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSalvar.UseVisualStyleBackColor = true;
-            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // btExcluir
             // 
@@ -101,7 +90,6 @@
             this.btExcluir.Text = "Excluir";
             this.btExcluir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btExcluir.UseVisualStyleBackColor = true;
-            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
             // 
             // btAlterar
             // 
@@ -115,7 +103,6 @@
             this.btAlterar.Text = "Alterar";
             this.btAlterar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btAlterar.UseVisualStyleBackColor = true;
-            this.btAlterar.Click += new System.EventHandler(this.btAlterar_Click);
             // 
             // btLocalizar
             // 
@@ -129,7 +116,6 @@
             this.btLocalizar.Text = "Localizar";
             this.btLocalizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btLocalizar.UseVisualStyleBackColor = true;
-            this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
             // 
             // btInserir
             // 
@@ -143,20 +129,25 @@
             this.btInserir.Text = "Inserir";
             this.btInserir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btInserir.UseVisualStyleBackColor = true;
-            this.btInserir.Click += new System.EventHandler(this.btInserir_Click);
             // 
-            // frmModeloDeCadastro
+            // pnDados
+            // 
+            this.pnDados.Location = new System.Drawing.Point(12, 12);
+            this.pnDados.Name = "pnDados";
+            this.pnDados.Size = new System.Drawing.Size(760, 397);
+            this.pnDados.TabIndex = 2;
+            // 
+            // frmCadastroCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(784, 531);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnDados);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Name = "frmModeloDeCadastro";
+            this.Name = "frmCadastroCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modelo de Formulário Cadastro";
-            this.Load += new System.EventHandler(this.frmModeloDeCadastro_Load);
+            this.Text = "CadastroCategoria";
+            this.Load += new System.EventHandler(this.frmCadastroCategoria_Load);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -164,7 +155,6 @@
 
         #endregion
 
-        protected Panel pnDados;
         protected Panel panel2;
         protected Button btCancelar;
         protected Button btSalvar;
@@ -172,5 +162,6 @@
         protected Button btAlterar;
         protected Button btLocalizar;
         protected Button btInserir;
+        protected Panel pnDados;
     }
 }

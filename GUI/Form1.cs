@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmPrincipal : Form
+    public partial class Form1 : Form
     {
-        public frmPrincipal()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmCadastroCategoria f = new frmCadastroCategoria();
-            f.ShowDialog();
-            f.Dispose();
         }
     }
 }

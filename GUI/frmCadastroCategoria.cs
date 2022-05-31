@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmModeloDeCadastro : Form
+    public partial class frmCadastroCategoria : Form
     {
         public String operacao;
-        public frmModeloDeCadastro()
+        public frmCadastroCategoria()
         {
             InitializeComponent();
         }
@@ -53,50 +53,9 @@ namespace GUI
             }
         }
 
-        private void frmModeloDeCadastro_Load(object sender, EventArgs e)
+        private void frmCadastroCategoria_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void pnDados_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void btInserir_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btLocalizar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btAlterar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btExcluir_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btSalvar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btCancelar_Click(object sender, EventArgs e)
-        {
-
+            this.alteraBotoes(1);
         }
     }
 }
-
