@@ -36,7 +36,12 @@
             this.btLocalizar = new System.Windows.Forms.Button();
             this.btInserir = new System.Windows.Forms.Button();
             this.pnDados = new System.Windows.Forms.Panel();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtcodigo = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            this.pnDados.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -64,6 +69,7 @@
             this.btCancelar.Text = "Cancelar";
             this.btCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btCancelar.UseVisualStyleBackColor = true;
+            this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btSalvar
             // 
@@ -77,6 +83,7 @@
             this.btSalvar.Text = "Salvar";
             this.btSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // btExcluir
             // 
@@ -129,13 +136,51 @@
             this.btInserir.Text = "Inserir";
             this.btInserir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btInserir.UseVisualStyleBackColor = true;
+            this.btInserir.Click += new System.EventHandler(this.btInserir_Click);
             // 
             // pnDados
             // 
+            this.pnDados.Controls.Add(this.txtNome);
+            this.pnDados.Controls.Add(this.txtcodigo);
+            this.pnDados.Controls.Add(this.label2);
+            this.pnDados.Controls.Add(this.label1);
             this.pnDados.Location = new System.Drawing.Point(12, 12);
             this.pnDados.Name = "pnDados";
             this.pnDados.Size = new System.Drawing.Size(760, 397);
             this.pnDados.TabIndex = 2;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(0, 81);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(584, 23);
+            this.txtNome.TabIndex = 3;
+            // 
+            // txtcodigo
+            // 
+            this.txtcodigo.Enabled = false;
+            this.txtcodigo.Location = new System.Drawing.Point(0, 27);
+            this.txtcodigo.Name = "txtcodigo";
+            this.txtcodigo.Size = new System.Drawing.Size(71, 23);
+            this.txtcodigo.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(0, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nome";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Codigo";
             // 
             // frmCadastroCategoria
             // 
@@ -146,9 +191,11 @@
             this.Controls.Add(this.pnDados);
             this.Name = "frmCadastroCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CadastroCategoria";
+            this.Text = "Cadastro de Categoria";
             this.Load += new System.EventHandler(this.frmCadastroCategoria_Load);
             this.panel2.ResumeLayout(false);
+            this.pnDados.ResumeLayout(false);
+            this.pnDados.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -163,5 +210,9 @@
         protected Button btLocalizar;
         protected Button btInserir;
         protected Panel pnDados;
+        private TextBox txtNome;
+        private TextBox txtcodigo;
+        private Label label2;
+        private Label label1;
     }
 }

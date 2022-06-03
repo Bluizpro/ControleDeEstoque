@@ -8,9 +8,9 @@ namespace DAL
 {
 public class DadosDaConexao
     {
-        static String  StringDeConexao
+        public static String  StringDeConexao
         {
-            get { return "Data Source=DESKTOP-MP0TBG8\\SQLEXPRESS;Initial Catalog=ControleDeEstoque;Integrated Security=True"; }
+            get { return "Data Source=DESKTOP-MP0TBG8\\SQLEXPRESS;Initial Catalog=ControleDeEstoque;Integrated Security=true";}
         }
         
     }
